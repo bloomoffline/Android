@@ -19,7 +19,7 @@ Interact with people 100 meters (330ft) around you & beyond this distance throug
 </p>
 
 <div id="badges">
-  <a href="www.twitter.com/bloomoffline">
+  <a href="https://twitter.com/bloomoffline">
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
