@@ -1,10 +1,10 @@
 <p align="center">
-<img src="https://github.com/bloomoffline/iOS/assets/159130033/ba117266-440d-43a0-9e58-3e05cd40c3c2" width="25%" height="25%">
+<img src="https://github.com/bloomoffline/iOS/assets/159130033/7e8125b9-89ec-4daa-af91-67a8b0b51a18" width="25%" height="25%">
 </p>
 <h1 align="center"> Bloom : Hyperlocal Offline Network
 </h1>
 <p align="center">
-<img src="https://github.com/bloomoffline/iOS/assets/159130033/14ac8956-a4d7-4875-a5b1-c317497a314f"  width="50%" height="50%"></p>
+<img src="https://github.com/bloomoffline/iOS/assets/159130033/8cfbae98-3f64-494b-bef9-8cfea817645e"  width="50%" height="50%"></p>
 
 <br>
 
@@ -15,7 +15,7 @@ Interact with people 100 meters (330ft) around you & beyond this distance throug
 </p>
 <br>
 <p align="center">
-<img width="50%" alt="image" src="https://github.com/bloomoffline/iOS/assets/159130033/6b57bac9-1807-491a-a434-70876a093788">
+<img width="50%" alt="image" src="https://github.com/bloomoffline/iOS/assets/159130033/f4338bd9-252e-4266-9153-8fc4cdc271c5">
 </p>
 
 <div id="badges">
@@ -23,6 +23,7 @@ Interact with people 100 meters (330ft) around you & beyond this distance throug
     <img src="https://img.shields.io/badge/Twitter-blue?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter Badge"/>
   </a>
 </div>
+
 
 <h1>
 What does Hyperlocal mean ?
@@ -33,8 +34,7 @@ By acting as a secure relay to each other, Bloom pushes the distance limits of B
 Each private message sent will hop onto nearby devices until it reaches the right recipient who will be the only one able to read it.
 Each public room message sent will hop onto all nearby devices and keep spreading around each user. By this way, Bloom can enable people to chat and share on large scale distance up to kilometers.
 
-![image](https://github.com/bloomoffline/iOS/assets/159130033/4b907a89-b51e-42fc-b118-9f6b4b191b9e)
-
+![image-removebg-preview](https://github.com/bloomoffline/iOS/assets/159130033/a98001fb-9199-469d-8f78-7d2a9a4fc43e)
 
 
 <h1>
@@ -54,7 +54,11 @@ Main Features
 App Instructions
 </h1>
 
-https://github.com/bloomoffline/iOS/assets/159130033/ae7f14b7-ede0-4324-82ad-ca14f6bad957
+
+
+https://github.com/bloomoffline/iOS/assets/159130033/2e2c68e1-782c-4186-99b0-74004e3b8d63
+
+
 
 <br>
 
