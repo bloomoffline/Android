@@ -1,0 +1,37 @@
+
+-- CREATE TABLE ===========================
+CREATE TABLE ChatPresenceDb (
+    id TEXT PRIMARY KEY,
+    user TEXT,
+    status TEXT,
+    info TEXT
+);
+
+
+-- INSERT ===========================
+
+insert:
+INSERT OR REPLACE INTO ChatPresenceDb
+VALUES ?;
+
+-- UPDATE ===========================
+
+-- QUERY ===========================
+
+selectById:
+SELECT *
+FROM ChatPresenceDb
+WHERE id = ?;
+
+selectAll:
+SELECT * FROM ChatPresenceDb;
+
+
+-- DELETE ===========================
+
+removeById:
+DELETE FROM ChatPresenceDb
+WHERE id = ?;
+
+removeAll:
+DELETE FROM ChatPresenceDb;

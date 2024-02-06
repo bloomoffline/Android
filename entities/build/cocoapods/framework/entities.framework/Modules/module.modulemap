@@ -1,0 +1,6 @@
+framework module entities {
+  umbrella header "placeholder.h"
+
+  export *
+  module * { export * }
+}

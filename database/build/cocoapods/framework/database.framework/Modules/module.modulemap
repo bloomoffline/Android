@@ -1,0 +1,6 @@
+framework module database {
+  umbrella header "placeholder.h"
+
+  export *
+  module * { export * }
+}

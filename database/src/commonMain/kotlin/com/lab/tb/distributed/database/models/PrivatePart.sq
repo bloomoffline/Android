@@ -1,0 +1,40 @@
+
+-- CREATE TABLE ===========================
+CREATE TABLE PrivatePartDb (
+    id TEXT PRIMARY KEY,
+    name TEXT,
+    deviceId INTEGER,
+    registrationId INTEGER,
+    identityKeyPair TEXT,
+    preKeys TEXT,
+    signedPreKey TEXT
+);
+
+
+-- INSERT ===========================
+
+insert:
+INSERT OR REPLACE INTO PrivatePartDb
+VALUES ?;
+
+-- UPDATE ===========================
+
+-- QUERY ===========================
+
+selectById:
+SELECT *
+FROM PrivatePartDb
+WHERE id = ?;
+
+selectAll:
+SELECT * FROM PrivatePartDb;
+
+
+-- DELETE ===========================
+
+removeById:
+DELETE FROM PrivatePartDb
+WHERE id = ?;
+
+removeAll:
+DELETE FROM PrivatePartDb;

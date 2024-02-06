@@ -1,0 +1,61 @@
+[versions]
+agp = "8.2.0"
+kotlin = "1.9.20"
+coroutineVersion = "1.7.0"
+compose = "1.5.4"
+compose-compiler = "1.5.4"
+compose-material3 = "1.1.2"
+coil = "2.4.0"
+androidx-activityCompose = "1.8.0"
+androidxNavigation = "2.7.5"
+androidxLifecycle = "2.6.1"
+accompanistPermissions= "0.33.2-alpha"
+annotationJvm = "1.7.0"
+appcompatVersion = "1.6.1"
+serializationVersion= "1.5.1"
+datetimeVersion = "0.4.0"
+sqldelightVersion = "1.5.5"
+koinAndroidCompose = "3.5.0"
+audioAmplituda = "2.2.2"
+audioWaveform = "1.1.1"
+signalClientAndroid = "2.3.0"
+
+[libraries]
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+koin-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koinAndroidCompose" }
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
+compose-ui = { module = "androidx.compose.ui:ui", version.ref = "compose" }
+compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
+compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
+compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "compose" }
+compose-material3 = { module = "androidx.compose.material3:material3", version.ref = "compose-material3" }
+coil-kt = { group = "io.coil-kt", name = "coil", version.ref = "coil" }
+coil-kt-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "androidxNavigation" }
+androidx-compose-material-windowSizeClass = { group = "androidx.compose.material3", name = "material3-window-size-class", version.ref = "compose-material3" }
+androidx-compose-material-iconsExtended = { group = "androidx.compose.material", name = "material-icons-extended" }
+androidx-annotation-jvm = { group = "androidx.annotation", name = "annotation-jvm", version.ref = "annotationJvm" }
+androidx-lifecycle-runtimeCompose = { group = "androidx.lifecycle", name = "lifecycle-runtime-compose", version.ref = "androidxLifecycle" }
+accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanistPermissions" }
+audio-amplituda = { module = "com.github.lincollincol:amplituda", version.ref = "audioAmplituda" }
+signal-client-android = { group = "org.whispersystems", name = "signal-protocol-android", version.ref = "signalClientAndroid" }
+signal-client-java = { group = "org.whispersystems", name = "signal-protocol-java", version.ref = "signalClientAndroid" }
+audio-waveform = { module = "com.github.lincollincol:compose-audiowaveform", version.ref = "audioWaveform" }
+android-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompatVersion" }
+coroutine-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutineVersion" }
+serialization = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "serializationVersion" }
+serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "serializationVersion" }
+sql-common = { module = "com.squareup.sqldelight:runtime", version.ref = "sqldelightVersion" }
+sql-android = { module = "com.squareup.sqldelight:android-driver", version.ref = "sqldelightVersion" }
+sql-ios = { module = "com.squareup.sqldelight:native-driver", version.ref = "sqldelightVersion" }
+kotlinx-datetime = { module = "org.jetbrains.kotlinx:kotlinx-datetime", version.ref = "datetimeVersion" }
+
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+kotlinxSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlinCocoapods = { id = "org.jetbrains.kotlin.native.cocoapods", version.ref = "kotlin" }
+sqlDelight = { id = "com.squareup.sqldelight", version.ref = "sqldelightVersion" }

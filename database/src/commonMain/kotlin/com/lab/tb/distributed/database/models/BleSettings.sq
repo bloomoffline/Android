@@ -1,0 +1,39 @@
+
+-- CREATE TABLE ===========================
+CREATE TABLE BleSettingsDb (
+    id TEXT PRIMARY KEY,
+    advertisingEnabled INTEGER AS Boolean,
+    scanningEnabled INTEGER AS Boolean,
+    monitorSignalStrengthInterval INTEGER,
+    enableNotification INTEGER AS Boolean,
+    showRoomAndMessagesPreviews INTEGER AS Boolean
+);
+
+
+-- INSERT ===========================
+
+insert:
+INSERT OR REPLACE INTO BleSettingsDb
+VALUES ?;
+
+-- UPDATE ===========================
+
+-- QUERY ===========================
+
+selectById:
+SELECT *
+FROM BleSettingsDb
+WHERE id = ?;
+
+selectAll:
+SELECT * FROM BleSettingsDb;
+
+
+-- DELETE ===========================
+
+removeById:
+DELETE FROM BleSettingsDb
+WHERE id = ?;
+
+removeAll:
+DELETE FROM BleSettingsDb;

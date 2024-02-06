@@ -1,0 +1,44 @@
+
+-- CREATE TABLE ===========================
+CREATE TABLE MessageDb (
+    id TEXT PRIMARY KEY,
+    timestamp INTEGER,
+    sourceUserId TEXT,
+    destinationUserId TEXT,
+    addedChatMessages TEXT,
+    updatedPresences TEXT,
+    deletedChatMessages TEXT,
+    messageRequest TEXT,
+    logicalClock INTEGER,
+    isPin INTEGER AS Boolean,
+    isNewNotification INTEGER AS Boolean,
+    chatChannel TEXT
+);
+
+-- INSERT ===========================
+
+insert:
+INSERT OR REPLACE INTO MessageDb
+VALUES ?;
+
+-- UPDATE ===========================
+
+-- QUERY ===========================
+
+selectById:
+SELECT *
+FROM MessageDb
+WHERE id = ?;
+
+selectAll:
+SELECT * FROM MessageDb;
+
+
+-- DELETE ===========================
+
+removeById:
+DELETE FROM MessageDb
+WHERE id = ?;
+
+removeAll:
+DELETE FROM MessageDb;

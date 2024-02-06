@@ -1,0 +1,35 @@
+
+-- CREATE TABLE ===========================
+CREATE TABLE ProfileDb (
+    id TEXT PRIMARY KEY,
+    presence TEXT
+);
+
+
+-- INSERT ===========================
+
+insert:
+INSERT OR REPLACE INTO ProfileDb
+VALUES ?;
+
+-- UPDATE ===========================
+
+-- QUERY ===========================
+
+selectById:
+SELECT *
+FROM ProfileDb
+WHERE id = ?;
+
+selectAll:
+SELECT * FROM ProfileDb;
+
+
+-- DELETE ===========================
+
+removeById:
+DELETE FROM ProfileDb
+WHERE id = ?;
+
+removeAll:
+DELETE FROM ProfileDb;

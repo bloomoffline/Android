@@ -1,0 +1,38 @@
+
+-- CREATE TABLE ===========================
+CREATE TABLE ChatUserDb (
+    id TEXT PRIMARY KEY,
+    publicKey TEXT,
+    name TEXT,
+    logicalClock INTEGER,
+    displayName TEXT
+);
+
+
+-- INSERT ===========================
+
+insert:
+INSERT OR REPLACE INTO ChatUserDb
+VALUES ?;
+
+-- UPDATE ===========================
+
+-- QUERY ===========================
+
+selectById:
+SELECT *
+FROM ChatUserDb
+WHERE id = ?;
+
+selectAll:
+SELECT * FROM ChatUserDb;
+
+
+-- DELETE ===========================
+
+removeById:
+DELETE FROM ChatUserDb
+WHERE id = ?;
+
+removeAll:
+DELETE FROM ChatUserDb;

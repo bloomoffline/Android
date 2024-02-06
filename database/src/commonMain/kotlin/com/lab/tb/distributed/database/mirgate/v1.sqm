@@ -1,0 +1,29 @@
+-- DELETE TABLE ===========================
+
+DROP TABLE IF EXISTS PublicPartDb;
+DROP TABLE IF EXISTS PrivatePartDb;
+
+-- CREATE TABLE ===========================
+CREATE TABLE PrivatePartDb (
+    id TEXT PRIMARY KEY,
+    name TEXT,
+    deviceId INTEGER,
+    registrationId INTEGER,
+    identityKeyPair TEXT,
+    preKeys TEXT,
+    signedPreKey TEXT
+);
+
+-- CREATE TABLE ===========================
+CREATE TABLE PublicPartDb (
+    id TEXT PRIMARY KEY,
+    registrationId INTEGER,
+    name TEXT,
+    deviceId INTEGER,
+    preKeyId INTEGER,
+    preKeyPublicKey TEXT,
+    signedPreKeyId INTEGER,
+    signedPreKeyPublicKey TEXT,
+    signedPreKeySignature TEXT,
+    identityKeyPairPublicKey TEXT
+);

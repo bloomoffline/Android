@@ -1,0 +1,42 @@
+
+-- CREATE TABLE ===========================
+CREATE TABLE PublicPartDb (
+    id TEXT PRIMARY KEY,
+    registrationId INTEGER,
+    name TEXT,
+    deviceId INTEGER,
+    preKeyId INTEGER,
+    preKeyPublicKey TEXT,
+    signedPreKeyId INTEGER,
+    signedPreKeyPublicKey TEXT,
+    signedPreKeySignature TEXT,
+    identityKeyPairPublicKey TEXT
+);
+
+-- INSERT ===========================
+
+insert:
+INSERT OR REPLACE INTO PublicPartDb
+VALUES ?;
+
+-- UPDATE ===========================
+
+-- QUERY ===========================
+
+selectById:
+SELECT *
+FROM PublicPartDb
+WHERE id = ?;
+
+selectAll:
+SELECT * FROM PublicPartDb;
+
+
+-- DELETE ===========================
+
+removeById:
+DELETE FROM PublicPartDb
+WHERE id = ?;
+
+removeAll:
+DELETE FROM PublicPartDb;
