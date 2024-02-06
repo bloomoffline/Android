@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="messages">Messages</string>
+    <string name="network">Network</string>
+    <string name="profile">Profile</string>
+    <string name="connected_users">Connected Users</string>
+    <string name="activity_status">Activity Status</string>
+    <string name="bloom_settings">Bloom Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="show_room_and_messages_previews"><![CDATA[Show Room & Messages previews]]></string>
+    <string name="be_discoverable_by_nearby_users">Be discoverable by nearby users</string>
+    <string name="scan_to_discover_nearby_users">Scan to discover nearby users</string>
+    <string name="bloom_monitoring_interval">Bloom monitoring interval (in seconds)</string>
+    <string name="be_discoverable_by_nearby_users_explanation">Keep active to appear to other users.\nYou can keep contact people even if you are not \ndiscoverable.</string>
+    <string name="scan_to_discover_nearby_users_explanation">Automatically scan for people around you.\nWe recommend to keep this feature enabled.</string>
+    <string name="bloom_monitoring_interval_explanation">Bloom checks connections regularly to ensure \nsmooth communication. We recommend to keep\nthis value at 5 seconds.</string>
+    <string name="reachable_users_nearby_users">%1d users reachable, %1d users nearby</string>
+    <string name="start_a_public_room_or_private_message">Start a Public Room or Private Message</string>
+    <string name="send_private_message">Send Private Message</string>
+    <string name="copy_user_bloom_id">Copy User Bloom ID</string>
+    <string name="copy_room_bloom_url">Copy Room Bloom URL</string>
+    <string name="pin">Pin</string>
+    <string name="unpin">Unpin</string>
+    <string name="delete_locally">Delete locally</string>
+    <string name="reply">Reply</string>
+    <string name="mark_as_unread">Mark as Unread</string>
+    <string name="share_text">Share Text</string>
+    <string name="share_file">Share %s</string>
+    <string name="copy_text">Copy Text</string>
+    <string name="copy_message_id">Copy Message ID</string>
+    <string name="copy_message_url">Copy Message URL</string>
+    <string name="copy_author_id">Copy Author ID</string>
+    <string name="copy_author_name">Copy Author Name</string>
+    <string name="open_dm_channel">Open DM channel</string>
+    <string name="app_name">Bloom</string>
+    <string name="bluetooth_disabled_message">Bluetooth is disabled, please turn on</string>
+    <string name="bluetooth_enabled_message">Bluetooth is enabled</string>
+</resources>
